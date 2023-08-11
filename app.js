@@ -2,7 +2,6 @@ const mqtt = require("mqtt");
 const conn = require('./db');
 var client = mqtt.connect('mqtt://127.0.0.1');
 
-
 let curdt = new Date();
 let year = curdt.getFullYear();
 console.log(curdt.getHours()+" "+curdt.getMinutes());
