@@ -5,6 +5,7 @@ var client = mqtt.connect('mqtt://127.0.0.1');
 let curdt = new Date();
 let year = curdt.getFullYear();
 console.log(curdt.getHours()+" "+curdt.getMinutes());
+
 // client.on("connect",function(){
 //     client.subscribe("exampl");
 //     console.log("Subscription OK!");
